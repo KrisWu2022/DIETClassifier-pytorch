@@ -180,6 +180,7 @@ if __name__ == '__main__':
     from src.data_reader.dataset import DIETClassifierDataset
     from transformers import AutoTokenizer
 
+    # files = ["dataset/nlu_QnA_converted.yml", "dataset/nlu_QnA_converted.yml"]
     files = ["dataset/nlu_QnA_converted.yml", "dataset/nlu_QnA_converted.yml"]
     tokenizer = AutoTokenizer.from_pretrained("dslim/bert-base-NER")
 
